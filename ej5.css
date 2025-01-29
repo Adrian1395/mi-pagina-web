@@ -1,0 +1,34 @@
+p {
+    margin: 20px;
+    width: 500px;
+}
+
+p:nth-child(1) {
+    padding: 8px;
+    color: green;
+    border: 3px dotted orange;
+    float: left;
+}
+
+p:nth-child(2) {
+    border: 3px solid blue;
+    padding: 32px;
+    margin: auto;
+    float: right;
+    
+}
+
+p:nth-child(3) {
+    padding: 4px;
+    border: 3px outset black;
+    float: left;
+
+}
+
+p:nth-child(4) {
+    padding: 4px;
+    border-top: 3px solid red;
+    width: auto;
+    float: left;
+
+}
